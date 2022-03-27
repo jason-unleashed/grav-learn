@@ -143,4 +143,4 @@ In order to modify specific **SCSS** files, we need to use a little configuratio
 4. The next step is to create a file located at `mytheme/scss/theme/_custom.scss`. This is where your modifications will go.
 5. Copy the `gulpfile.js` and `package.json` files into the base folder of the new theme.
 
-In order to compile the new scss for the **mytheme** you will need to open up terminal and navigate to the theme folder. Quark uses gulp to compile the sass so you will need those installed and yarn for the dependencies. Run `npm install -g gulp`, `yarn install`, and then `gulp watch`. Now, any changes made to the files will be recompiled.
+In order to compile the new scss for the **mytheme** you will need to open up terminal and navigate to the theme folder. Quark uses gulp to compile the sass so you will need those installed and yarn for the dependencies. Run `npm install gulp gulp-sass gulp-clean-css gulp-rename gulp-autoprefixer gulp-sourcemaps`, `npm install yarn` and then `gulp watch`. Now, any changes made to the files will be recompiled.
